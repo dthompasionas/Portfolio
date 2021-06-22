@@ -1,0 +1,277 @@
+/*All*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 
+
+/*custom color variables*/
+:root {
+    --darkblue: #31343d;
+    --teal: #92CCCE;
+    --navy: #445877;
+    --athens: #eeeef7;
+}
+
+
+/*whole body area*/
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+    line-height: 1.5;
+    background-color: var(--athens);
+}
+
+article {
+    display: block;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+
+}
+
+
+
+/*all 'p' tags*/
+p {
+    margin: 0;
+    display: block;
+
+}
+
+/*header area*/
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--darkblue);
+    padding: 15px 15px;
+}
+
+header h1 {
+    color: var(--darkblue);
+    background-color: var(--teal);
+    padding: 0px 10px 0px 90px;
+    position: relative;
+    left: -15px;
+    line-height: 60px;
+}
+
+/*Nav area*/
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    left: -40px;
+    
+    
+}
+
+nav a {
+    text-decoration: none;
+    padding: 7px;
+    margin-right: 10px;
+    color: var(--teal);
+    background-repeat: no-repeat;
+    background-image: linear-gradient(280deg, var(--teal) 0%, var(--teal) 100%);
+    background-size: 100% 0.2em;
+    background-position: bottom;
+    transition: all .25s ease-in;
+    font-size: 20px;
+    
+
+}
+
+/*interaction on nav*/
+nav a:hover {
+    background-size: 100% 100%;
+    color: var(--darkblue);
+}
+
+/*palm tree img section*/
+.palmtree {
+    flex-wrap: wrap;
+    margin: 0px;
+    
+}
+
+.palmtree h2 {
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: absolute;
+    left: 83%;
+    bottom: 31%;
+    background-color: var(--teal);
+    color: var(--darkblue);
+    padding: 0px 0px 0px 8px;
+    
+}
+
+
+.palmtree img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover; 
+}
+
+/*main*/
+.content article {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+/*about me flex*/
+.aboutme-wrap {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    display: flex;
+    
+}
+
+.agrid-cont {
+    width: 80%;
+    display: grid;
+    gap: 10px ;
+}
+
+.aboutme-title h1 {
+    border-right: solid;
+    border-width: 4px;
+    padding-right: 10px;
+    font-size: 45px;
+    display: grid;
+    grid-template-columns: 30% auto;
+    justify-content: center;
+}
+
+.aboutme-title.aboutme-info {
+    text-align: right;
+    padding-top: 0px;
+    color: var(--navy);
+    font-size: 20px;
+    border-width: 3px;
+    grid-row: auto;
+    justify-content: flex-start;
+   
+}
+
+#aboutme-info1 {
+    padding-left: 40px;
+    
+}
+
+#aboutme-info2 {
+    grid-column: 2 / span 3;
+    padding-left: 10px;
+    grid-row: 3 / span 2;
+}
+
+/*work flex section*/
+.work-wrap {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.wgrid-cont {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr repeat(3, 2fr);
+    gap: 10px 10px;
+    grid-template-rows: repeat(10, 1fr);
+}
+
+
+.work-title.work-info {
+    font-size: 33px;
+    text-align: right;
+    padding-top: 10px;
+    color: var(--navy);
+    border-right: solid;
+    border-width: 3px;
+    grid-row: 1 / span 9;
+    padding-left: 50px;
+
+}
+
+
+.contact-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.cgrid-cont {
+    width: 70%;
+    display: grid;
+    grid-template-rows: auto;
+    gap: 20px 20px;
+
+}
+
+
+
+.contact-title.contact-info {
+    font-size: 33px;
+    padding-right: 10px;
+    text-align: right; 
+    justify-content: space-evenly;
+
+}
+
+.contact-title h1 {
+    border-right: solid;
+    border-width: 4px;
+    padding-right: 20px;
+    font-size: 35px;
+    display: grid;
+    grid-template-columns: 30% auto;
+    justify-content: center;
+}
+
+.contact-info1 {
+    color: var(--navy);
+    display: contents;
+}
+
+
+
+
+
+
+
+#contact a:hover {
+    color: var(--athens);
+    background-size: 100% 50%;
+}
+
+#contact a {
+    text-decoration: none;
+    padding: 65px 10px 10px ;
+    display: flex;
+    flex-direction: row;
+    color: var(--navy);
+    background-repeat: no-repeat;
+    background-image: linear-gradient(280deg, var(--navy) 0%, var(--navy) 100%);
+    background-size: 100% 0.2em;
+    background-position: bottom;
+    transition: all .25s ease-in;
+    font-size: 20px;
+    
