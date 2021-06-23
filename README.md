@@ -25,6 +25,4 @@ Deployed page:  https://dthompasionas.github.io/Portfolio/
 
 screenshot:
 
-![](images/portfolio-1.jpg)
-
-![](images/portfolio-2.jpg)
+In the images area of the repo. Github would not display my screenshots.
