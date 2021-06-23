@@ -21,7 +21,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 Github URL: https://github.com/dthompasionas/Portfolio
 
-Deployed page:
+Deployed page:  https://dthompasionas.github.io/Portfolio/
 
 screenshot:
 
