@@ -21,7 +21,7 @@ body {
     padding: 0;
     line-height: 1.5;
     background-color: var(--athens);
-    border: 5px dashed orange;
+    
 }
 
 article {
@@ -130,12 +130,8 @@ nav a:hover {
 
 /*main*/
 
-main {
-    
-}
 
 section {
-    border: 5px dashed purple;
     flex-wrap: wrap;
     flex-direction: column;
     display: flex;
@@ -150,7 +146,6 @@ section {
     flex-wrap: wrap;
     justify-content: space-around;
     display: flex;
-    border: dashed green 5px;
     flex-direction: row;
     
 }
@@ -190,7 +185,6 @@ section {
     flex-wrap: wrap;
     justify-content: space-around;
     display: flex;
-    border: dashed green 5px;
     flex-direction: row;
     
 }
@@ -201,7 +195,7 @@ section {
     margin-top: 10px;
     align-items: stretch;
     padding: 30px;
-    padding-right: 23.3%;
+    padding-right: 13.3%;
 }
 
 
@@ -221,7 +215,15 @@ section {
     padding-left: 20px;
     justify-content: flex-start;
     flex-wrap: wrap;
+    align-content: center;
+    align-items: flex-end;
+    gap: 10px;
 }
+
+.work-info p {
+    padding: 0;
+}
+
 
 p img {
     border: 4px solid var(--teal);
@@ -233,6 +235,7 @@ p img {
     background-color: var(--teal);
     color: var(--athens);
     background-size: 5px;
+    margin-bottom: 10px;
     
 }
 
@@ -240,6 +243,7 @@ p img {
     background-color: var(--teal);
     color: var(--athens);
     background-size: 5px;
+    margin-left: 10px;
 }
 
 
@@ -248,9 +252,9 @@ p img {
     flex-wrap: wrap;
     justify-content: space-around;
     display: flex;
-    border: dashed green 5px;
+    
     flex-direction: row;
-    align-items: ;
+    
 
 }
 
