@@ -25,6 +25,6 @@ Deployed page:  https://dthompasionas.github.io/Portfolio/
 
 screenshot:
 
-![](assets/images/portfolio-1.jpg)
+![](images/portfolio-1.jpg)
 
-![](assets/images/portfolio-2.jpg)
+![](images/portfolio-2.jpg)
